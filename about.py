@@ -46,16 +46,6 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "班级图书角管理系统"))
         self.ok.setText(_translate("Form", "确定"))
-        self.label.setText(_translate("Form", "指导教师：谢威老师\n"
-"创 作  人：刘宇辰\n"
-"班　　级：2018级5班\n"
-"组　　名：知识守护者\n"
-"组　　员：黄昭恺、吴显彬、郭嘉煜、陈厚任、谢浚锴、邓彦弘、陈珞昕\n"
-"我们小组发现每个班级都有图书角，但是却没有像图书馆一样的管理系统，于是我们编写了这个系统，便于各个班级管理自己的图书角。\n"
-"\n"
-"\n"
-"\n"
-"                                                                        演武小学2018级5班\"知识守护者\"小组赠"))
         self.title.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:32pt; color:#5500ff;\">班级图书角管理系统</span></p></body></html>"))
 
 if __name__ == '__main__':
